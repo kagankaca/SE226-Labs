@@ -1,0 +1,6 @@
+name=input("Name: ")
+lab=float(input("lab: "))
+mt=float(input("Midterm: "))
+final=float(input("Final: "))
+lastscore= (lab * 0.25) + (mt*0.35) + (final*0.4)
+print("Name: ",name,"\nLab: ",lab,"\nMidterm ",mt,"\nFInal: ",final,"\nLast Score: ",lastscore)
