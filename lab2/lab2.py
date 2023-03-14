@@ -10,6 +10,18 @@ print("\n"
       ""
       "")
 while number < 1000 :
-    if words[number][0] == 'h' and words[number][1]=='a':
+    if words[number][0] == 'h' and words[number][1]=='a': #didnt use startswith method cause i was to silly to think about it noticed that while editing code 
         print(words[number])
     number = number + 1
+
+    #second part 
+    
+    n = int(input("Please enter a number between 3 and 9: "))
+
+if n < 3 or n > 9:
+    print("Invalid input. Please enter a number between 3 and 9.")
+else:
+    for i in range(1, n+1):
+        print("*" * i)
+    for i in range(n-1, 0, -1):
+        print("*" * i)
